@@ -10,6 +10,9 @@
 [1] Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M. Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024. (Accepted)
 <br><a name="[2]"></a>[2] Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," 2024. (Under review)
 
+<!-- Citation -->
+<!-- Please cite our work if you find it useful -->
+
 ## 3. Repository Structure
 <pre>
 |--LoRaMesh_main.py: The main file for setting parameters and running the simulation.
