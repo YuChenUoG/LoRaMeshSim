@@ -8,7 +8,7 @@
 
 ## 2. Related Publications
 [1] Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M. Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024. (Accepted)
-<br>[2] Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," 2024. (Under review)
+<br><a name="[2]"></a>[2] Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," 2024. (Under review)
 
 ## 3. Repository Structure
 <pre>
@@ -52,7 +52,7 @@ The nodes in the simulator are placed in a line as shown in the figure below. Yo
 ### (2) Coverage
 The source of the sensitivity table in the simulator is Table 1 of [Do LoRa low-power wide-area networks scale?](https://dl.acm.org/doi/abs/10.1145/2988287.2989163), in which it was measured utilizing two nodes deployed in different floors of a building. Thus, the coverage is much smaller than outdoors. You can modify the sensitivity table in LoRaMesh_main.py if you want to simulate outdoor coverage.
 ### (3) Routing Algorithm
-The current version (0.1.0) does not include a routing algorithm.
+The current version (0.1.0) does not include a routing algorithm. The routing tables are determined by a random spanning tree generated using [Andrei Broder](https://www.cs.cmu.edu/afs/cs/academic/class/15859n-f18/RelatedWork/Broder-GenRanSpanningTrees.pdf) and [David Alduous](https://epubs.siam.org/doi/abs/10.1137/0403039?casa_token=vOUjS88woZsAAAAA:yEB9iQIBtjkXKWLYl03rkBsMRFeznrV2zfh514q2vgqsTglPW9t55awoQUegywLUZMF1c793EHezLw) algorithm. We have proposed a routing algorithm in [[2]](#[2]) and will upload its source code to the repository when the paper is accepted.
 
 
 
