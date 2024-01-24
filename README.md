@@ -42,7 +42,7 @@
 |                |
 |                |--sfCollsion: Called by checkCollision.
 |
-|--result.csv: Save the simulation results.
+|--result.csv: Save the simulation output.
 </pre>
 
 ## 4. Usage Tips
