@@ -6,6 +6,53 @@
 * Date: January 2024
 * Contact: Yu Chen (Email: yu.chen.2@glasgow.ac.uk)
 
-## 2. Related publications
-[1] Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024. (Accepted)
-[2] Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," 2024. (Under review)
+## 2. Related Publications
+[1] Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M. Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024. (Accepted)
+<br>[2] Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," 2024. (Under review)
+
+## 3. Repository Structure
+<pre>
+|--LoRaMesh_main.py: The main file for setting parameters and running the simulation.
+|
+|                   |--Node(): This class creates a sensor node.
+|--class_myNode.py--|
+|                   |--GW(): This class creates a gateway.
+|
+|                    |--DataPacket(): This class creates a data packet.
+|                    |
+|                    |--ACK(): This class creates an acknowledgment packet.
+|--class_packets.py--|
+|                    |--RoutingRequest(): This class creates a routing request packet.
+|                    |
+|                    |--Routing(): This class creates a routing discovery packet.
+|
+|                |--timeOnAir: This function computes the time on air of a packet.
+|                |
+|                |--calculateRSSI: This function calculates RSSI between two nodes.
+|                |
+|                |--collectData: This function triggers data collection and transmission.
+|                |
+|                |--transmitData: This function simulates the process of packet transmission.
+|--functions.py--|
+|                |--receiving: This function simulates the process of packet reception.
+|                |
+|                |--checkCollision: This function checks if there is a signal collision.
+|                |
+|                |--frequenceyCollsion: Called by checkCollision.
+|                |
+|                |--sfCollsion: Called by checkCollision.
+|
+|--result.csv: Save the simulation results.
+</pre>
+
+## 4. Usage Tips
+### (1) Node placement
+The nodes in the simulator are placed in a line as shown in the figure below. You can modify their locations in class_myNode.py if you want to place them in a two-dimensional plane.
+<br><p align="center"><img src="https://github.com/YuChenUoG/LoRaMeshSim/assets/87127772/d774fa7d-d37c-44ee-8cad-83cd20bbbd31" alt="drawing" width="500"/></p>
+### (2) Coverage
+The source of the sensitivity table in the simulator is Table 1 of [Do LoRa low-power wide-area networks scale?](https://dl.acm.org/doi/abs/10.1145/2988287.2989163), in which it was measured utilizing two nodes deployed in different floors of a building. Thus, the coverage is much smaller than outdoors. You can modify the sensitivity table in LoRaMesh_main.py if you want to simulate outdoor coverage.
+### (3) Routing Algorithm
+The current version (0.1.0) does not include a routing algorithm.
+
+
+
