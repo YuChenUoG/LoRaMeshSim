@@ -54,7 +54,7 @@ The source of the sensitivity table in the simulator is Table 1 of [Do LoRa low-
 ### (3) Routing Algorithm
 The current version (0.1.0) does not include a routing algorithm. The routing tables are determined by a random spanning tree generated using [Andrei Broder](https://www.cs.cmu.edu/afs/cs/academic/class/15859n-f18/RelatedWork/Broder-GenRanSpanningTrees.pdf) and [David Alduous](https://epubs.siam.org/doi/abs/10.1137/0403039?casa_token=vOUjS88woZsAAAAA:yEB9iQIBtjkXKWLYl03rkBsMRFeznrV2zfh514q2vgqsTglPW9t55awoQUegywLUZMF1c793EHezLw) algorithm. We have proposed a routing algorithm in [[2]](#[2]) and will upload its source code to the repository when the paper is accepted.
 
-## Changelog
+## 5. Changelog
 ### 0.1.0 - 2024-01-24
 Initial release.
 
