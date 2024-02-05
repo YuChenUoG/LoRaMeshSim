@@ -7,7 +7,7 @@
 * Contact: Yu Chen (Email: yu.chen.2@glasgow.ac.uk)
 
 ## 2. Related Publications
-[1] Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M. Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024. (Accepted)
+[1] [Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M. Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024.](https://ieeexplore.ieee.org/document/10418488)
 <br><a name="[2]"></a>[2] Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," 2024. (Under review)
 
 <!-- Citation -->
