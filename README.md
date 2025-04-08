@@ -9,7 +9,7 @@
 
 ## 2. Related Publications
 [1] [Y. Chen, G. Shi, M. Al-Quraan, Y. Sambo, O. Onireti, and M. Imran, "LoRa Mesh-5G Integrated Network for Trackside Smart Weather Monitoring," *IEEE Transactions on Vehicular Technology*, 2024.](https://ieeexplore.ieee.org/document/10418488)
-<br><a name="[2]"></a>[2] [Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," *IEEE Transactions on Vehicular Technology*, 2025. (Under review)](https://eprints.gla.ac.uk/352765/)
+<br><a name="[2]"></a>[2] [Y. Chen, G. Shi, Y. Sambo, O. Onireti, and M. Imran, "On the Scalability and Coverage of LoRa Mesh for Monitoring Linear Infrastructure," *IEEE Transactions on Vehicular Technology*, 2025. (Accepted for Publication)](https://eprints.gla.ac.uk/352765/)
 
 Please cite our work if you find it useful:
 ```
