@@ -1,8 +1,8 @@
 # LoRaMeshSim
 ## 1. Introduction
 * LoRaMeshSim is a discrete-event simulator based on [LoRaSim](https://mcbor.github.io/lorasim/) and [SimPy](https://simpy.readthedocs.io/en/latest/), designed for simulating collisions and routing in LoRa mesh networks. It facilitates the development of new routing algorithms and the analysis of network reliability, scalability, and coverage.
-* The design team belongs to the [Communication, Sensing & Imaging (CSI) group](https://www.gla.ac.uk/research/az/csi/) of the University of Glasgow.
-* Team member: Yu Chen, Guo Shi, Dr Yusuf Sambo, Dr Oluwakayode Onireti, and Prof. Muhammad Imran
+* The design team are with the Control and Communications Research Group at the [James Watt School of Engineering](https://www.gla.ac.uk/schools/engineering/), the University of Glasgow.
+* Team member: [Dr Yu Chen](https://www.gla.ac.uk/schools/engineering/staff/yuchen/#), Dr Guo Shi, [Dr Yusuf Sambo](https://www.gla.ac.uk/schools/engineering/staff/yusufsambo/), [Dr Oluwakayode Onireti](https://www.gla.ac.uk/schools/engineering/staff/oluwakayodeonireti/), and [Prof. Muhammad Imran](https://www.gla.ac.uk/schools/engineering/staff/muhammadimran/)
 * Date: January 2024
 * Contact: Yu Chen (Email: yu.chen.2@glasgow.ac.uk)
 
