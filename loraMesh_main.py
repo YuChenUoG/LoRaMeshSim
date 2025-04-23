@@ -33,9 +33,9 @@ if __name__ == '__main__':
     graphics = 1                            # graphics = 1 to plot the figure of node locations and coverages
 
     # parameters
-    sf = 12                                 # invalid value: {7, 8, 9, 10, 11, 12}
-    cr = 1                                  # invalid value: {1, 2, 3, 4}
-    bw = 125                                # invalid value: {125, 250, 500}
+    sf = 12                                 # valid values: {7, 8, 9, 10, 11, 12}
+    cr = 1                                  # valid values: {1, 2, 3, 4}
+    bw = 125                                # valid values: {125, 250, 500}
     dens = 2                                # deployment density factor (>=1)
     avgSendTime = 15*60*1000                # in millisecond
     simtime = 1*60*60*1000                  # in millisecond
